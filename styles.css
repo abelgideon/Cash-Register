@@ -1,0 +1,64 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  background-color: #fffdf2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#cash,
+#purchase-btn,
+#change-due {
+  width: 80%;
+  height: 3rem;
+  margin-bottom: 0.2rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#purchase-btn {
+  border: none;
+  margin-bottom: 2rem;
+}
+
+#input-label {
+  margin-bottom: 0.3rem;
+  font-size: 1.3rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #purchase-btn:hover {
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 50%;
+  }
+}
