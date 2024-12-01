@@ -7,7 +7,8 @@
   font-family: "Roboto";
 }
 
-body {
+body, html {
+  height: 100%;
   background-color: #fffdf2;
 }
 
@@ -38,6 +39,7 @@ h1 {
 #purchase-btn {
   border: none;
   margin-bottom: 2rem;
+  color: black;
 }
 
 #input-label {
